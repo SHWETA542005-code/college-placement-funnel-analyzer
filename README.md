@@ -171,10 +171,12 @@ This analysis examined the placement funnel across 1000 simulated student record
 
 ## Tech Stack
 
-SQL (MySQL), CASE statements, Aggregate Functions, GROUP BY, Subqueries, WHERE clause filtering
+SQL (MySQL), CASE statements, Aggregate Functions, GROUP BY, Subqueries, WHERE clause filtering, Python, Streamlit
 
 ## Files in this Repository
 
 - `placement_data.csv` — Simulated dataset (1000 records)
 - `queries.sql` — All 10 SQL queries used in this analysis
 - `README.md` — This file (full analysis and insights)
+- - `app.py` — Interactive Streamlit prediction tool 
+  (input CGPA + skills → get estimated selection probability with factor breakdown)
