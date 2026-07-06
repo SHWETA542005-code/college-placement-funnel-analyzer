@@ -1,2 +1,2 @@
-python
-streamlit
+- python
+- streamlit
